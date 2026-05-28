@@ -88,18 +88,21 @@ export const projects = [
     github: "https://github.com/Govadalikhith",
   },
   {
-    title: "Wikipedia Search Application",
+    title: "Luxecart - Full Stack eCommerce Web Application",
     description:
-      "Dynamic web application that fetches real-time search results using Wikipedia API.",
+      "Developed a responsive and interactive eCommerce platform using React.js, Vite, and Tailwind CSS for a seamless user experience.",
     details: [
-      "Used fetch API and async/await",
-      "Designed responsive UI with HTML, CSS, Bootstrap",
-      "Optimized API calls",
-      "Improved performance and UX",
+      "Integrated backend APIs using Node.js and Express.js to enable secure user authentication and dynamic product management.",
+      "Implemented Supabase for real-time database updates, authentication, and efficient data handling.",
+      "Designed and built an admin panel for managing products, users, and orders, ensuring smooth operations.",
+      "Optimized application performance for fast loading times and smooth navigation across devices.",
+      "Deployed the application on Vercel and Render, following modern scalable eCommerce standards.",
+      "Enhanced UI/UX design to provide a visually appealing and user-friendly shopping experience.",
     ],
-    tech: ["JavaScript", "HTML", "CSS"],
-    live: "https://mywikipedia14.ccbp.tech/",
+    tech: ["React.js", "Vite", "Tailwind CSS", "Node.js", "Express.js", "Supabase"],
+    live: "https://lumenorassigment.vercel.app/",
     github: "https://github.com/Govadalikhith",
+    type: "ecommerce",
   },
 ];
 

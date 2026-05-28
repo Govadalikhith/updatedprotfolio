@@ -1,4 +1,4 @@
-import { FiArrowUpRight, FiGithub } from "react-icons/fi";
+import { FiArrowUpRight, FiGithub, FiShoppingBag, FiCode } from "react-icons/fi";
 import Badge from "./Badge";
 import ExternalLink from "./ExternalLink";
 
@@ -8,9 +8,20 @@ const ProjectCard = ({ project }) => {
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 via-transparent to-cyan-400/10 opacity-0 transition group-hover:opacity-100" />
       <div className="relative">
         <div className="flex flex-wrap items-start justify-between gap-3">
-          <h3 className="text-xl font-semibold">{project.title}</h3>
-          <Badge className="bg-indigo-50 text-indigo-600 dark:bg-white/10 dark:text-indigo-300">
-            Case Study
+          <div className="flex items-start gap-3">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 shadow-sm dark:bg-indigo-500/20 dark:text-indigo-400">
+              {project.type === "ecommerce" ? (
+                <FiShoppingBag className="h-6 w-6" />
+              ) : (
+                <FiCode className="h-6 w-6" />
+              )}
+            </div>
+            <h3 className="mt-1 text-xl font-bold tracking-tight text-slate-900 dark:text-white">
+              {project.title}
+            </h3>
+          </div>
+          <Badge className="bg-indigo-50 text-indigo-600 dark:bg-indigo-500/20 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-500/30">
+            {project.type === "ecommerce" ? "eCommerce" : "Full Stack"}
           </Badge>
         </div>
 
