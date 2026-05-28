@@ -84,7 +84,7 @@ export const projects = [
       "Improved performance and reduced load time",
     ],
     tech: ["React", "Node.js", "Express", "SQLite"],
-    live: "https://jobportalapplication.vercel.app",
+    live: "https://jobportalapplication.vercel.app/login",
     github: "https://github.com/Govadalikhith/FULLSTACKJOBPORTALAPPLICATION",
   },
   {
