@@ -84,8 +84,8 @@ export const projects = [
       "Improved performance and reduced load time",
     ],
     tech: ["React", "Node.js", "Express", "SQLite"],
-    live: "https://lively-lokum-fce37f.netlify.app/",
-    github: "https://github.com/Govadalikhith",
+    live: "https://jobportalapplication.vercel.app",
+    github: "https://github.com/Govadalikhith/FULLSTACKJOBPORTALAPPLICATION",
   },
   {
     title: "Luxecart - Full Stack eCommerce Web Application",
